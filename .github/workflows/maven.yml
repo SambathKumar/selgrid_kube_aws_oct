@@ -15,7 +15,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # image of the virtual machine to run on
 
     steps:
     - uses: actions/checkout@v4
